@@ -1,12 +1,14 @@
 /**
- * Onel Hirmez August 18, 2020
+ * Onel Hirmez August 18, 2020.
  */
+
 package edu.bu.met.cs665;
 
 /**
- * @author ohirmez This class represents a template for a house that will be custom built by a user.
- *         It includes a nested class which is the builder class that will specify the attributes of
- *         the House.
+ * This class represents a template for a house that will be custom built by a user. It includes a
+ * nested class which is the builder class that will specify the attributes of the House.
+ * 
+ * @author ohirmez
  */
 public final class House {
   private String houseColor;
