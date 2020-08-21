@@ -1,3 +1,15 @@
+# Project Description
+
+This application is a custom house builder and it assists the user in creating their own houses to be built with custom specifications ranging from the color of the house to whether it has a pool and the number of garages needed.
+
+This application uses the Builder design pattern which consists of a House class to build the house but which is also nested with a HouseBuilder class which has access to the constructor of the House class in order to produce a House object with the required specifications. The Builder method makes it easy for the client to add or remove specifications from the house object they want to create without having to access the constructor of the House class and complicate the process.
+
+This application is very flexible when it comes to adding new possible features to the houses that the client can select from. This is because each feature such as the square footage of the house is just an attribute in the House and the HouseBuilder classes and in order to add more customizations such as whether the house has a fireplace or not, all we have to do is add an attribute.
+
+The application is simple and easy to understand by any programmer since all it consists of is two classes, one nested inside the other. The private constructor of the parent class House is accessed by the builder class in order to simplify the process of creating a complex object of House. 
+
+Unfortunately, one of the downsides of the Builder pattern is the fact that it contains some duplicated code. The upside was providing a way for the client to easily create customizable House objects but the downside is that I had some duplicate code inside the HouseBuilder nested class which I also had inside the House parent class.
+
 # Project Template
 
 This is a Java Maven Project Template
